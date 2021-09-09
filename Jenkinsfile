@@ -4,14 +4,14 @@ pipeline {
         stage('build') {
            
             steps {
-                echo 'buld'
+                echo 'every min building'
                
             }
         }
         stage('test') {
            
             steps {
-                echo 'test'
+                echo 'every min test'
                
             }
         }
